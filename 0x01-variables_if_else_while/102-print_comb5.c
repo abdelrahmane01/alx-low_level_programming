@@ -39,6 +39,13 @@ int main(void)
 					putchar(digit3 + 48);
 					putchar(digit4 + 48);
 
+					if (((digit1 * 10) + digit2) == 98){
+                        if (((digit3 * 10) + digit4) == 99)
+                        {
+                         digit4++;
+                         continue;
+                        }
+					}
 					digit4++;
 					putchar(',');
 					putchar(' ');
