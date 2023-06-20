@@ -16,7 +16,7 @@ int main(void)
 	for (x = 0; x < 50; x++)
 	{
 		c = a + b;
-		printf("%d", c)
+		printf("%d", c);
 
 		a = b;
 		b = c;
