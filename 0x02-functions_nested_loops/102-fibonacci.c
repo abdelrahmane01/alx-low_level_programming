@@ -21,7 +21,7 @@ int main(void)
 		a = b;
 		b = c;
 
-		if (c == 49)
+		if (x == 49)
 			printf("\n");
 		else
 			printf(", ");
