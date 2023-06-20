@@ -11,12 +11,12 @@
 
 int main(void)
 {
-	int a = 0, b = 1, c, x;
+	unsigned long a = 0, b = 1, c, x;
 
 	for (x = 0; x < 50; x++)
 	{
 		c = a + b;
-		printf("%d", c);
+		printf("%lu", c);
 
 		a = b;
 		b = c;
