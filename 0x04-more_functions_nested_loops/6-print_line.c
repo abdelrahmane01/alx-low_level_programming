@@ -1,10 +1,9 @@
 #include "main.h"
 
 /**
- * print_line - prints 0 - 14
- *      ten times
- *      using _putchar function
- *	@n: is number of times the _ character
+ * print_line - prints a straight line
+ *
+ * @n: is number of times the _ character
  *	should be printed
 */
 
