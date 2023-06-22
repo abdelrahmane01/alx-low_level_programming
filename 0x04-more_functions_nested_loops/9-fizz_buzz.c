@@ -6,6 +6,7 @@
  * and for the multiples of five prints Buzz
  * and for both prints FizzBuzz
  * Return: Always 0 (Success)
+ *
  */
 
 int main(void)
