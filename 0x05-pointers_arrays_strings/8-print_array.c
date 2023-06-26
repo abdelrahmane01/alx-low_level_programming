@@ -6,7 +6,6 @@
  * followed by a new line.
  *
  * @n: elements parameter input
- *
  * @a: string parameter input
  *
  * Return: Nothing
