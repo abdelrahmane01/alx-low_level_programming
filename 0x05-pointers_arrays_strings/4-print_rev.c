@@ -13,10 +13,10 @@ void print_rev(char *s)
 {
 	int x = 0;
 
-	while (*str != '\0')
+	while (*s != '\0')
 	{
 		x++;
-		str++;
+		s++;
 	}
 	while (x)
 	{
