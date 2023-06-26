@@ -11,9 +11,9 @@
 
 void puts2(char *str)
 {
-	int x = 0;
+	int x;
 
-	for (; str[x] != '\0'; str++)
+	for (x = 0; str[x] != '\0'; str++)
 	{
 		if (x % 2 == 0)
 		{
